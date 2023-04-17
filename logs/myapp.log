@@ -1,0 +1,145 @@
+19:58:59.892 [restartedMain] INFO  b.c.c.ApiPedidosApplication - Starting ApiPedidosApplication using Java 20 with PID 4776 (C:\Users\Coti - 13\Desktop\java-arq\api_pedidos\target\classes started by Coti - 13 in C:\Users\Coti - 13\Desktop\java-arq\api_pedidos)
+19:58:59.941 [restartedMain] INFO  b.c.c.ApiPedidosApplication - No active profile set, falling back to 1 default profile: "default"
+19:59:00.254 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+19:59:00.254 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+19:59:02.956 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+19:59:02.978 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8084"]
+19:59:02.980 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:59:02.982 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.7]
+19:59:03.167 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:59:03.176 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2915 ms
+19:59:06.022 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+19:59:06.060 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8084"]
+19:59:06.125 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+19:59:06.152 [restartedMain] INFO  b.c.c.ApiPedidosApplication - Started ApiPedidosApplication in 7.228 seconds (process running for 9.346)
+20:01:52.179 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:01:52.183 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:01:52.187 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+20:01:53.335 [http-nio-8084-exec-8] WARN  o.s.c.LocalVariableTableParameterNameDiscoverer - Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: br.com.cotiinformatica.controllers.PedidosController
+20:01:53.829 [http-nio-8084-exec-8] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 652 ms
+20:06:14.330 [http-nio-8084-exec-4] INFO  o.a.k.c.producer.ProducerConfig - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [pkc-6ojv2.us-west4.gcp.confluent.cloud:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.IntegerSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = PLAIN
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_SSL
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+20:06:14.497 [http-nio-8084-exec-4] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Instantiated an idempotent producer.
+20:06:14.684 [http-nio-8084-exec-4] INFO  o.a.k.c.s.a.AbstractLogin - Successfully logged in.
+20:06:14.937 [http-nio-8084-exec-4] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.3.2
+20:06:14.937 [http-nio-8084-exec-4] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: b66af662e61082cb
+20:06:14.937 [http-nio-8084-exec-4] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1681772774934
+20:06:17.474 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-0 to 0 since the associated topicId changed from null to QLWqzBGdTxeBQxvXMhCYKg
+20:06:17.475 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-5 to 0 since the associated topicId changed from null to QLWqzBGdTxeBQxvXMhCYKg
+20:06:17.476 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-4 to 0 since the associated topicId changed from null to QLWqzBGdTxeBQxvXMhCYKg
+20:06:17.477 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-1 to 0 since the associated topicId changed from null to QLWqzBGdTxeBQxvXMhCYKg
+20:06:17.477 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-2 to 0 since the associated topicId changed from null to QLWqzBGdTxeBQxvXMhCYKg
+20:06:17.477 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Resetting the last seen epoch of partition pagamentos-3 to 0 since the associated topicId changed from null to QLWqzBGdTxeBQxvXMhCYKg
+20:06:17.484 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata - [Producer clientId=producer-1] Cluster ID: lkc-j3d3dm
+20:06:17.490 [kafka-producer-network-thread | producer-1] INFO  o.a.k.c.p.i.TransactionManager - [Producer clientId=producer-1] ProducerId set to 1230420 with epoch 0
+20:06:17.545 [http-nio-8084-exec-4] INFO  b.c.c.controllers.PedidosController - {"valor":100.50,"cliente":{"nome":"João Silva","cpf":"123.456.789-00","email":"joao.silva@gmail.com","telefone":"(11) 98765-4321","endereco":{"logradouro":"Rua das Flores","complemento":"Apartamento 123","numero":"456","bairro":"Jardim das Rosas","cidade":"São Paulo","estado":"SP","cep":"12345-678"}},"cobranca":{"numeroCartao":"1234 5678 9012 3456","nomeImpressoNoCartao":"JOAO SILVA","mesValidade":12,"anoValidade":25,"codigoSeguranca":123,"valor":100.50},"produtos":[{"nome":"Camiseta","preco":50.25,"quantidade":1},{"nome":"Calça Jeans","preco":50.25,"quantidade":1}]}
+20:15:17.710 [kafka-producer-network-thread | producer-1] INFO  o.apache.kafka.clients.NetworkClient - [Producer clientId=producer-1] Node -1 disconnected.
+20:39:05.387 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+20:39:05.421 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8084"]
+20:39:05.427 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+20:39:05.432 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+20:39:05.451 [RMI TCP Connection(2)-127.0.0.1] WARN  o.a.c.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [kafka-producer-network-thread | producer-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/sun.nio.ch.WEPoll.wait(Native Method)
+ java.base/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114)
+ java.base/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130)
+ java.base/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142)
+ org.apache.kafka.common.network.Selector.select(Selector.java:873)
+ org.apache.kafka.common.network.Selector.poll(Selector.java:465)
+ org.apache.kafka.clients.NetworkClient.poll(NetworkClient.java:560)
+ org.apache.kafka.clients.producer.internals.Sender.runOnce(Sender.java:328)
+ org.apache.kafka.clients.producer.internals.Sender.run(Sender.java:243)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+20:39:05.466 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8084"]
+20:39:05.476 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8084"]
+20:39:05.483 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.k.clients.producer.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+20:39:05.498 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+20:39:05.501 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+20:39:05.503 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+20:39:05.505 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.producer for producer-1 unregistered
